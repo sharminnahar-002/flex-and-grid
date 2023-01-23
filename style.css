@@ -1,0 +1,40 @@
+*,
+*::after
+*::before{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+
+}
+.container div{
+    padding: 20px  20px 0;
+    flex-basis: 30%;
+}
+.container .child1{
+    background: #f1c40f;
+
+  
+}
+.container .child2{
+    background: #d11f1f;
+   
+}
+.container .child3{
+    background: #6d0ff1;
+    
+}
+@media only screen and (min-width:200px) and (max-width:
+767px){
+.container{
+    flex-direction: column;
+}
+}
+    
